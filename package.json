@@ -1,0 +1,14 @@
+{
+  "name" : "fine-uploader-for-desginers",
+  "description" : "Fine Uploader for Designers",
+  "dependencies" : {
+    "dialog-polyfill": "0.4.3",
+    "fine-uploader": "5.11.5"
+  },
+  "engines": {
+    "node" : ">=5.0.0"
+  },
+  "scripts": {
+    "postinstall": "cp -pR node_modules/dialog-polyfill dependencies/dialog-polyfill ; cp -pR node_modules/fine-uploader/fine-uploader dependencies/fine-uploader"
+  }
+}
