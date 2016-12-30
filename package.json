@@ -2,8 +2,8 @@
   "name" : "fine-uploader-for-desginers",
   "description" : "Fine Uploader for Designers",
   "dependencies" : {
-    "dialog-polyfill": "0.4.3",
-    "fine-uploader": "5.11.5"
+    "dialog-polyfill": "0.4.5",
+    "fine-uploader": "5.11.10"
   },
   "engines": {
     "node" : ">=5.0.0"
